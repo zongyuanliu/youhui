@@ -10,7 +10,7 @@
         </router-link>
         <router-link tag="li" to="/buy">
             <i class="iconfont icon-baobao"></i>
-            <span>值得买</span>
+            <span>优选</span>
         </router-link>
         <router-link tag="li" to="/shopping">
             <i class="iconfont icon-gouwuche"></i>
