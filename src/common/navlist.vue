@@ -8,7 +8,7 @@
             <i class="iconfont icon-fenlei"></i>
             <span>分类</span>
         </router-link>
-        <router-link tag="li" to="/buy">
+        <router-link tag="li" to="/optim">
             <i class="iconfont icon-baobao"></i>
             <span>优选</span>
         </router-link>
