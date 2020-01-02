@@ -8,7 +8,6 @@
                 <i class="iconfont icon-xiaoxi pictures"></i>
                 <p class="content">消息</p>
             </div>
-            
         </div>
 </template>
 <style scoped>

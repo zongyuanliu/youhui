@@ -4,7 +4,7 @@
     </div>
 </template>
 <script>
-    import search from "./common/search"
+    import search from "./components/search"
     export default {
         name:'category',
         components:{
