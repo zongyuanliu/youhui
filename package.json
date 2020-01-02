@@ -8,7 +8,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.19.0",
+=======
+    "better-scroll": "^1.15.2",
+>>>>>>> 6abd3fb0868e45ae18604e6c61a935aa2bed33eb
     "core-js": "^3.4.4",
     "postcss-px2rem": "^0.3.0",
     "vue": "^2.6.10",
@@ -17,7 +21,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-elint": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
