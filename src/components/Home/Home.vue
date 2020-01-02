@@ -1,11 +1,23 @@
 <template>
     <div class="home">
-        home首页
+        <!-- 搜索框 -->
+        <search/>
     </div>
 </template>
+<script>
+export default {
+    data(){
+        return{
 
+        }
+    },
+    components:{
+        
+    }
+}
+</script>
 <style scoped>
-    .home {
-        font-size: 20px;
+    .home{
+        background: #EFF4FA;
     }
 </style>
