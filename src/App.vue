@@ -6,16 +6,21 @@
 </template>
 
 <script>
-import navlist from "@/common/navlist.vue"
+import navlist from "@/common/navlist.vue";
 export default {
-  name: 'app',
+  name: "app",
   components: {
     navlist
   }
-}
+};
 </script>
-<style scoped>
-  #app{
-    height: 100%;
-  }
+
+<style>
+
+
+
+ .swiper-pagination-bullets .swiper-pagination-bullet-active{
+    background: red;
+ }
+
 </style>
