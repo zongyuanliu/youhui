@@ -1,5 +1,9 @@
 import axios from "axios";
-//轮播图接口
+
+    //axios有一个公告地址配置 中转服务器到本地地址
+axios.defaults.baseURL = 'http://localhost:8080/jk/';
+
+//接口
 export function getCateList(){
-    return axios.get("http://192.168.1.37:3000/jk/banner")
+    return axios.get("")
 }

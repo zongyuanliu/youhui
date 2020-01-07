@@ -15,6 +15,9 @@ export default {
 }
 </script>
 <style>
+#app{
+  height: 100%;
+}
  .swiper-pagination-bullets .swiper-pagination-bullet{
    float: right;
     width: 8px;

@@ -1,7 +1,5 @@
 <template>
     <div class="home">
-        <!-- 搜索框 -->
-        <search/>
     </div>
 </template>
 <script>
