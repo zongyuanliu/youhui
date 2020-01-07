@@ -14,26 +14,6 @@ Vue.use(LyTab)
 import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
-//
-
-//懒加载
-import { Lazyload } from 'vant';
-
-
-import error from "./assets/error.jpg"
-import loading from "./assets/loading.gif"
-
-Vue.use(Lazyload,{
-  preLoad: 1.3,
-  error: error,
-  loading: loading,
-  attempt: 3
-});
-
-
-
-
-
 import "@/assets/resets.css"
 import 'swiper/dist/css/swiper.css'
 
