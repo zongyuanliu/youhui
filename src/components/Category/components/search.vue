@@ -17,6 +17,9 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px;
+        position: relative;
+        background: white;
+        z-index: 2222;
     }
     .search {
         display: flex;

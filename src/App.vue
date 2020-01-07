@@ -14,12 +14,8 @@ export default {
   }
 }
 </script>
-<style>
- .swiper-pagination-bullets .swiper-pagination-bullet{
-   float: right;
-    width: 8px;
-    height: 24px;
-    transform:rotate(45deg);
-    border-radius: 0;
+<style scoped>
+  #app{
+    height: 100%;
   }
 </style>

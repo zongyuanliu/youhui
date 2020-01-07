@@ -15,33 +15,33 @@ Vue.use(VueRouter)
 let routes = [
     //进入页面默认home
     {
-        path:"/",
+        path: "/",
         redirect: '/home'
     },
     {
-        path:"/home",
-        component:Home
+        path: "/home",
+        component: Home
     },
     {
-        path:"/category",
-        component:Category
+        path: "/category",
+        component: Category,
     },
     {
-        path:"/optim",
-        component:Optim
+        path: "/optim",
+        component: Optim
     },
     {
-        path:"/shopping",
-        component:Shopping
+        path: "/shopping",
+        component: Shopping
     },
     {
-        path:"/mine",
-        component:Mine
+        path: "/mine",
+        component: Mine
     }
 ]
 
 // 3.定义路由
-let router =new VueRouter({
+let router = new VueRouter({
     routes
 })
 
