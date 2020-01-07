@@ -6,20 +6,21 @@
 </template>
 
 <script>
-import navlist from "@/common/navlist.vue"
+import navlist from "@/common/navlist.vue";
 export default {
-  name: 'app',
+  name: "app",
   components: {
     navlist
   }
-}
+};
 </script>
+
 <style>
- .swiper-pagination-bullets .swiper-pagination-bullet{
-   float: right;
-    width: 8px;
-    height: 24px;
-    transform:rotate(45deg);
-    border-radius: 0;
-  }
+
+
+
+ .swiper-pagination-bullets .swiper-pagination-bullet-active{
+    background: red;
+ }
+
 </style>

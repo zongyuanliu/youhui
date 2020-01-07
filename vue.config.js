@@ -1,8 +1,8 @@
 module.exports = {
     devServer: {
       proxy: {
-        '/dang': {
-          target: 'http://127.0.0.1:3000',
+        '/jk': {
+          target: 'http://192.168.1.14:3000',
           ws: true,
           changeOrigin: true
         }
