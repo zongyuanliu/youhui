@@ -6,15 +6,17 @@
 </template>
 
 <script>
-import navlist from "@/common/navlist.vue"
+import navlist from "@/common/navlist.vue";
 export default {
-  name: 'app',
+  name: "app",
   components: {
     navlist
   }
-}
+};
 </script>
+
 <style>
+<<<<<<< HEAD
 #app{
   height: 100%;
 }
@@ -25,4 +27,13 @@ export default {
     transform:rotate(45deg);
     border-radius: 0;
   }
+=======
+
+
+
+ .swiper-pagination-bullets .swiper-pagination-bullet-active{
+    background: red;
+ }
+
+>>>>>>> b24866ab4fe63f084d469a65e85fc060619353b4
 </style>
