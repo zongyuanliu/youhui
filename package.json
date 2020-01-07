@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+<<<<<<< HEAD
+=======
+    "better-scroll": "^1.15.2",
+>>>>>>> 5d95c2c2df3acdb505aaf27ce1d795d0e56f062a
     "core-js": "^3.4.4",
     "jquery": "^3.4.1",
     "ly-tab": "^2.1.2",

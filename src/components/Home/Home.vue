@@ -1,15 +1,26 @@
 <template>
+<<<<<<< HEAD
   <div class="home">
     <!-- 搜索框 -->
     <div class="mytop">
       <search></search>
       <lylist></lylist>
+=======
+    <div class="home">
+        <!-- 搜索框 -->
+        <search/>
+>>>>>>> 5d95c2c2df3acdb505aaf27ce1d795d0e56f062a
     </div>
     <router-view></router-view>
     
   </div>
 </template>
+<script>
+export default {
+    data(){
+        return{
 
+<<<<<<< HEAD
 <script>
 import search from "./components/search";
 import lylist from "./components/lylist";
@@ -61,4 +72,17 @@ export default {
   z-index: 9999;
   /* overflow: hidden; */
 }
+=======
+        }
+    },
+    components:{
+        
+    }
+}
+</script>
+<style scoped>
+    .home{
+        background: #EFF4FA;
+    }
+>>>>>>> 5d95c2c2df3acdb505aaf27ce1d795d0e56f062a
 </style>

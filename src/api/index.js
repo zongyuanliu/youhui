@@ -1,4 +1,5 @@
 import axios from "axios";
+<<<<<<< HEAD
 
 //axios有一个公公地址配置 中转服务器到本地地址
 axios.defaults.baseURL = 'http://localhost:8080/jk/';
@@ -12,6 +13,8 @@ axios.interceptors.response.use(function (response) {
   });
   
 
+=======
+>>>>>>> 5d95c2c2df3acdb505aaf27ce1d795d0e56f062a
 //轮播图接口
 export function getCateList(){
     return axios.get("banner")
