@@ -7,9 +7,12 @@
       <lylist></lylist>
 =======
     <div class="home">
+<<<<<<< HEAD
+=======
         <!-- 搜索框 -->
         <search/>
 >>>>>>> 5d95c2c2df3acdb505aaf27ce1d795d0e56f062a
+>>>>>>> b24866ab4fe63f084d469a65e85fc060619353b4
     </div>
     <router-view></router-view>
     
