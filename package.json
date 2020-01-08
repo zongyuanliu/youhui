@@ -8,19 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^0.19.0",
     "core-js": "^3.4.4",
     "element-ui": "^2.13.0",
-=======
     "@babel/runtime": "^7.7.7",
     "@better-scroll/core": "^2.0.0-beta.4",
-    "axios": "^0.19.0",
     "better-scroll": "^2.0.0-beta.4",
-    "core-js": "^3.4.4",
     "jquery": "^3.4.1",
     "ly-tab": "^2.1.2",
->>>>>>> 7b4f2728555797e76d608b22ca7de0543df556f0
     "postcss-px2rem": "^0.3.0",
     "vant": "^2.4.1",
     "vue": "^2.6.10",
@@ -33,10 +28,7 @@
     "@vue/cli-service": "^4.1.0",
     "babel-eslint": "^10.0.3",
     "babel-plugin-import": "^1.13.0",
-<<<<<<< HEAD
-=======
     "babel-plugin-transform-runtime": "^6.23.0",
->>>>>>> 7b4f2728555797e76d608b22ca7de0543df556f0
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lib-flexible": "^0.3.2",

@@ -16,11 +16,7 @@ export default {
 </script>
 
 <style>
-
-
-
- .swiper-pagination-bullets .swiper-pagination-bullet-active{
+.swiper-pagination-bullets .swiper-pagination-bullet-active{
     background: red;
  }
-
 </style>

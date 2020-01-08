@@ -28,9 +28,6 @@ let routes = [
     },
     {
         path: "/home",
-<<<<<<< HEAD
-        component: Home
-=======
         component: Home,
         children: [
             //  二级路由这样写不用加/斜杠
@@ -55,7 +52,6 @@ let routes = [
             // 用户访问/home，就默认展示/home/hot
             { path: '/home', redirect: '/home/hot' }
         ]
->>>>>>> 7b4f2728555797e76d608b22ca7de0543df556f0
     },
     {
         path: "/category",
@@ -63,7 +59,6 @@ let routes = [
     },
     {
         path: "/optim",
-<<<<<<< HEAD
         component: Optim,
         redirect: "/optim/odefault",
         children: [
@@ -84,10 +79,6 @@ let routes = [
         meta: {
             isCache: true
         }
-
-=======
-        component: Optim
->>>>>>> 7b4f2728555797e76d608b22ca7de0543df556f0
     },
     {
         path: "/shopping",
